@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+SKL Server
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
+This repository contained the information for accessing the skl server, project management and basic software usage.
 
 https://docs.readthedocs.io/en/stable/tutorial/
