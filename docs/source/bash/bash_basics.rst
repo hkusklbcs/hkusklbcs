@@ -15,6 +15,51 @@ The brain imaging data, demo+behavioral data, as well as project documents, publ
 
 You will need to understand the permissions of the files and folders, so that lab members could collaborate with each other.
 
+The folders of the Linux system is more or less the same as Windows, except there are no Drive Letters (e.g. C:, D:).
+
+The ``root`` or ``/`` is the lowest folder struct you could access to, just like ``C:\`` in Windows.
+
+The folder separator in Linux is ``/`` instead of ``\``.
+
+Here is some example which you could access to the file system in Linux.
+
+Assuming we have a folder structure like this:
+
+::
+
+    /
+    ├── data
+    │   ├── apps
+    │   └── proj
+    │      ├── p21_Resil
+    │      └── p21_Stress
+    ├── home
+    │   ├── johndoe
+    │   └── siuming
+    └── tmp
+
+Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
+
+.. list-table:: Path Names
+   :widths: 20 40 40
+   :header-rows: 1
+   
+   * - Path Name
+     - Explanation
+     - Actual Path
+   * - /
+     - root directory
+     - /
+   * - .
+     - current working directory 
+     - /data/proj/p21_Resil
+   * - ..
+     - parent directory
+     - /data/proj/p21_Resil
+   * - ~
+     - home directory
+     - /data/home/johndoe
+
 Basic Commands
 **************
 
