@@ -25,7 +25,42 @@ Replacement
 Arrays
 ******
 
+Simple Array
+
+
 .. code-block:: Bash
+
+  array=("apple" "banana" "cherry" "durian")
+  echo ${array[0]} # first element begins with 0
+  # apple
+  echo ${array[@]} # all elements
+  # apple banana cherry durian
+  echo ${#array[@]} # number of elements
+  # 4 
+  echo ${!array[@]} # keys to array
+  # 0 1 2 3
+  array[7]=fish
+  echo ${!array[@]}
+  # 0 1 2 3 7
+  unset array[3]
+  echo ${array[@]}
+  # apple banana cherry fish
+  echo ${!array[@]}
+  # 0 1 2 7
+  echo ${#array[@]}
+  # 4
+  for i in ${!array[@]}; do
+    echo "key = $i; value = ${array[$i]}"
+  done
+  # key = 0; value = apple
+  # key = 1; value = banana
+  # key = 2; value = cherry
+  # key = 7; value = fish
+
+Associative Array
+
+.. code-block:: Bash
+
   declare -A array
   array["sub-001"]="MDD"
   array["sub-002"]="Healthy"
@@ -40,6 +75,8 @@ Arrays
   # 
   echo ${array[$sub]-undefined}
   # undefined
+
+Try different combinations. You will know how to manipulate the array. This is important for scripting.
 
 Arithmetics
 ***********
@@ -73,13 +110,30 @@ if-statements
 
 .. code-block:: Bash
 
-  if-then-fi
+  ### if-then ###
+  var1=a
+  if [ "$var1" = a ]; then
+    echo "Is a!"
+  fi
+  # Is a!
+  
+  ### if-then-else ###
+  var1=b
+  if [ "$var1" = a ]; then
+    echo "Is a!"
+  else
+    echo "Is NOT a!"
+  fi
 
-  if-then-else-fi
-
-  if-then-elif-fi
-
-  if-then-elif-else-fi
+  ### if-then-elif ###
+  var1=c
+  if [ "$var1" = a ]; then
+    echo "Is a!"
+  elif [ "$var1" = b ]; then
+    echo "Is b!"
+  else
+    echo "Not a/b..."
+  fi
 
 case-statements
 
