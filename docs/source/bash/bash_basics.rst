@@ -110,9 +110,9 @@ Some basic command will be handy for accessing the files.
      - list the files in YOUR home folder
    * - ls /data/proj/stress
      - list the files in the particular folder
-   * - ls *.nii.gz
+   * - ls \*.nii.gz
      - list the files in the current directory which ended with .nii.gz
-   * - ls *.{nii,nii.gz}
+   * - ls \*.{nii,nii.gz}
      - similar as above, but ended with both .nii and .nii.gz
    * - ls sub-00{01..23}
      - list files named sub-0001 to sub-0023
