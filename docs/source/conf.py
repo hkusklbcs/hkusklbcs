@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SKL Brain & Cognitive Science'
+copyright = '2021, Wong'
+author = 'Wong'
 
 release = '0.1'
 version = '0.1.0'
