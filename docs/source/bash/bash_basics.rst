@@ -71,7 +71,7 @@ Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
    * - .
      - current working directory 
      - /data/proj/p21_Resil
-   * - .. 
+   * - ".." 
      - parent directory
      - /data/proj
    * - ../
