@@ -30,12 +30,27 @@ Assuming we have a folder structure like this:
     /
     ├── data
     │   ├── apps
-    │   └── proj
-    │      ├── p21_Resil
-    │      └── p21_Stress
-    ├── home
-    │   ├── johndoe
-    │   └── siuming
+    │   │   ├── afni
+    │   │   ├── ANTs
+    │   │   └── bin
+    │   │       ├── c3d *
+    │   │       └── dcm2niix *
+    │   ├── proj
+    │   │   ├── p21_Resil
+    │   │   │   ├── bi1dcm
+    │   │   │   │   ├── R001
+    │   │   │   │   │   ├── Scan1
+    │   │   │   │   │   │   └── dicom files
+    │   │   │   │   │   └── Scan2
+    │   │   │   │   │       └── dicom files
+    │   │   │   │   ├── R002
+    │   │   │   │   └── R003
+    │   │   │   ├── bi2json
+    │   │   │   └── bids
+    │   │   └── p21_Stress
+    │   └── home
+    │       ├── johndoe
+    │       └── siuming
     └── tmp
 
 Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
@@ -50,15 +65,19 @@ Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
    * - /
      - root directory
      - /
+   * - ~
+     - home directory
+     - /data/home/johndoe
    * - .
      - current working directory 
      - /data/proj/p21_Resil
    * - ..
      - parent directory
-     - /data/proj/p21_Resil
-   * - ~
-     - home directory
-     - /data/home/johndoe
+     - /data/proj
+   * - ../
+     - parent directory
+     - /data/proj
+     
 
 Basic Commands
 **************
