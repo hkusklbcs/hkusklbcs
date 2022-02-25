@@ -71,12 +71,24 @@ Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
    * - .
      - current working directory 
      - /data/proj/p21_Resil
+   * - bi1dcm
+     - bi1dcm of current directory 
+     - /data/proj/p21_Resil/bi1dcm
+   * - bi1dcm/R001
+     - folder R001 of bi1dcm of current directory 
+     - /data/proj/p21_Resil/bi1dcm/R001
    * - \..
      - parent directory
      - /data/proj
-   * - ../apps
-     - apps in the parent directory
-     - /data/proj/apps
+   * - ../..
+     - parent of parent
+     - /data/
+   * - ../../apps
+     - apps of parent of parent
+     - /data/apps
+   * - ../../apps/bin/dcm2niix
+     - travel through...
+     - /data/proj/apps/bin/dcm2niix
      
 
 Basic Commands
