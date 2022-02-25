@@ -13,10 +13,14 @@ Contents
 --------
 
 .. toctree::
-
+   :maxdepth: 1
+   :caption: Server Access
+   
    access/access
    
 .. toctree::
+   :maxdepth: 1
+   :caption: BASH
 
    bash/bash_basics
    bash/bash_scripting
