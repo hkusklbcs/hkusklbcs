@@ -136,8 +136,14 @@ Loop
   for var in item1 item2 item3; do
     echo $var
   done
+  # item1
+  # item2
+  # item3
 
-  for var in item{1..3}; do
+  for var in sub-00{1..3}; do
     echo $var
   done
-
+  # sub-001
+  # sub-002
+  # sub-003
+  
