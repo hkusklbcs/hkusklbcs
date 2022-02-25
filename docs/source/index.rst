@@ -19,4 +19,4 @@ Contents
 .. toctree::
 
    bash/bash_basics
-   bash/scripting
+   bash/bash_scripting
