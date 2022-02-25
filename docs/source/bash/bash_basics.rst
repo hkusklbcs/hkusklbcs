@@ -71,7 +71,7 @@ Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
    * - .
      - current working directory 
      - /data/proj/p21_Resil
-   * - bi1dcm
+   * - bi1dcm or ./bi1dcm
      - bi1dcm of current directory 
      - /data/proj/p21_Resil/bi1dcm
    * - bi1dcm/R001
