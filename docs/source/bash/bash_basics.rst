@@ -118,7 +118,7 @@ Some basic command will be handy for accessing the files.
      - list files named sub-0001 to sub-0023
    * - ls -l
      - list files with details
-   * - ls sub-*/ses-*/*task*.json
+   * - ls sub-\*/ses-\*/\*task\*.json
      - asterisk will be expanded if the filename matches
    * - cd /data
      - change to the folder /data. The preceding slash indicate it is located at root.
@@ -136,7 +136,7 @@ Some basic command will be handy for accessing the files.
      - create 15 folders.
    * - rm myfile.txt
      - remove the file
-   * - rm *.txt
+   * - rm \*.txt
      - remove all file ended with txt
    * - rm doc/file.txt
      - remove the file.txt in doc
