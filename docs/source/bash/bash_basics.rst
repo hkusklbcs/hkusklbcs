@@ -82,7 +82,7 @@ Assume I am johndoe, and I am now working in the project folder ``p21_Resil``.
      - /data/proj
    * - ../..
      - parent of parent
-     - /data/
+     - /data
    * - ../../apps
      - apps of parent of parent
      - /data/apps
