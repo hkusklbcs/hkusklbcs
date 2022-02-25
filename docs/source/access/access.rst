@@ -108,11 +108,11 @@ You can change the resolutions.
 
 From the application menu, choose Settings
 
-.. figure:: VNC-1-Settings
+.. figure:: VNC-1-Settings.png
 
 Then choose the Display from the panel, you can choose the monitor and change the resolution.
 
-.. figure:: VNC-2-Displays
+.. figure:: VNC-2-Displays.png
 
 
 Start the Terminal
@@ -120,7 +120,7 @@ Start the Terminal
 
 Click Application, then Terminal.
 
-.. figure:: VNC-3-Terminal
+.. figure:: VNC-3-Terminal.png
 
 You can try to start some graphical software here.
 
@@ -160,3 +160,15 @@ A few shortcuts will be helpful to interact with the terminal.
    * - Control-Shift-V
      - Paste the text
 
+Uploading Files
+***************
+
+You will want to upload files to the server. 
+
+It is recommended to use `Filezilla <https://filezilla-project.org/download.php?type=client>` for uploading the files.
+
+You can click the upperleft icon ``Site Manager``.
+
+.. figure:: Filezilla-1-SiteManager.png
+
+Note that you need to choose SFTP as the transfer protocol, and sklfmri5 as the host.
