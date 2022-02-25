@@ -30,6 +30,7 @@ Simple Array
 
 .. code-block:: Bash
 
+  unset array # Remove the variable
   array=("apple" "banana" "cherry" "durian")
   echo ${array[0]} # first element begins with 0
   # apple
@@ -42,7 +43,7 @@ Simple Array
   array[7]=fish
   echo ${!array[@]}
   # 0 1 2 3 7
-  unset array[3]
+  unset array[3] # Remove the item #3
   echo ${array[@]}
   # apple banana cherry fish
   echo ${!array[@]}
@@ -56,25 +57,36 @@ Simple Array
   # key = 1; value = banana
   # key = 2; value = cherry
   # key = 7; value = fish
+  unset array
 
 Associative Array
 
 .. code-block:: Bash
 
   declare -A array
+  
   array["sub-001"]="MDD"
   array["sub-002"]="Healthy"
   array["sub-003"]="MDD"
   echo ${array["sub-001"]}
-  # MDD
+  ``MDD``
   sub="sub-002"
   echo ${array[$sub]}
-  # Healthy
+  ``Healthy``
   sub="sub-004"
   echo ${array[$sub]}
-  # 
+  `` `` (empty)
   echo ${array[$sub]-undefined}
-  # undefined
+  ``undefined``
+  
+  
+  array="hello"
+  declare -A array
+  ``bash: declare: array: cannot convert indexed to associative array``
+  unset array
+  declare -A array
+  `` `` (This will return no error)  
+
 
 Try different combinations. You will know how to manipulate the array. This is important for scripting.
 
