@@ -220,48 +220,107 @@ case-statements
   esac
 
 
-testing conditions (file existence)
-===================================
+Testing conditions
+******************
+
+We will need to test something, see below for things we could use :)
+
+File existence
+==============
 
 .. code-block:: Bash
+
+  if [ -f subj.txt ]; then echo "File exist"; fi
+  if [ ! -f subj.txt ]; then echo "Missing file"; fi
 
   [ -f file ]
   [ -d directory ]
   [ -e fileOrFolder ]
-  
-  if [ -f subj.txt ]; then echo "File exist"; fi
-  if [ ! -f subj.txt ]; then echo "Missing file"; fi
 
-testing conditions (numerical comparison)
+Numerical comparison
+====================
 
 .. code-block:: Bash
+
+  var1=3; var2=5
+  if [ $var1 -lt $var2 ]; then echo "$var1 less than $var2"; fi
 
   [ $var1 -lt $var2 ]
   [ $var1 -le $var2 ]
   [ $var1 -gt $var2 ]
   [ $var1 -ge $var2 ]
   [ $var1 -ne $var2 ]
+  
 
-testing conditions (string comparison)
+String comparison
+=================
 
 .. code-block:: Bash
 
-  [ $var1 = $var2 ]     # This is dangerous, if any of the variables are not defined, it will ends up with error.
+  var1="apple"; var2=orange; # Quote is optional.
+  if [ "$var1" = "$var2" ]; then echo "$var1 is identical to $var2"; fi
+  
+  if [ "$var1" != "$var2" ]; then echo "$var1 is different from $var2"; fi
+  if [ ! "$var1" = "$var2" ]; then echo "$var1 is different from $var2"; fi
+    
+  if [ $var1 = $var2 ]  # This is dangerous, if any of the variables are not defined, it will ends up with error.
   [ "$var1" = "$var2" ] # This is better.
 
-testing conditions (regular expression comparison)
+Regular expression
+==================
+
+Regular expression is a powerful tool for complex string matching.
 
 .. code-block:: Bash
 
-  [[ "$var1" =~ "a.*b" ]] # You will need to check the Regular Expression documentations. It's a powerful tool.
+  [[ "$var1" =~ "a.*b" ]] 
 
-testing conditions (and or not)
+Combining conditions (and or not)
+=================================
 
 .. code-block:: Bash
 
   [ "$var" = "apple" ] && [ "$var" = "orange" ] # AND
   [ "$var" = "apple" ] || [ "$var" = "orange" ] # OR
   ! [ "$var" = "apple" ] && [ "$var" = "orange" ] # Not
+
+
+Program exit status
+===================
+
+Sometimes we wish to check if a program finished without error.
+
+Create a text file with a few lines
+
+.. code-block:: Bash
+
+  cat <<EOF > textfile.txt
+  hello
+  world
+  EOF 
+
+See what's inside
+
+.. code-block:: Bash
+
+  less textfile.txt
+  
+Check if the text file contain the text "hello"
+
+.. code-block:: Bash
+  if grep -q hello textfile.txt; then echo yes; else echo no; fi
+  # yes
+  
+Check if the text file contain the text "apple"
+
+.. code-block:: Bash
+  if grep -q apple textfile.txt; then echo yes; else echo no; fi
+  # no
+
+Explanation:
+
+The program ``grep`` extract 
+
 
 
 Loop
