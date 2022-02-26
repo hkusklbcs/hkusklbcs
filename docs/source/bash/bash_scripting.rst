@@ -308,12 +308,14 @@ See what's inside
 Check if the text file contain the text "hello"
 
 .. code-block:: Bash
+  
   if grep -q hello textfile.txt; then echo yes; else echo no; fi
   # yes
   
 Check if the text file contain the text "apple"
 
 .. code-block:: Bash
+  
   if grep -q apple textfile.txt; then echo yes; else echo no; fi
   # no
 
