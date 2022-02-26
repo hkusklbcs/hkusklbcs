@@ -45,7 +45,7 @@ The folder is intended for all documents related to the project. Including but n
 * Questionnaires
 * Task Paradigms
 
-`` Please make suggestions and comments ``
+``Please make suggestions and comments``
 
 Demographics & Behavioral Data (demobeh)
 ****************************************
