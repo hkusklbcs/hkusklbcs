@@ -1,5 +1,5 @@
 BASH Scripting Examples
-=======================
+#######################
 
 I will go into the details later. Below are some usage examples. I hope it looks intuitive.
 
@@ -7,6 +7,7 @@ Variables
 *********
 
 Assignment
+==========
 
 .. code-block:: Bash
 
@@ -14,6 +15,7 @@ Assignment
   var=1
 
 Replacement
+===========
 
 .. code-block:: Bash
 
