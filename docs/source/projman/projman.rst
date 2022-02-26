@@ -9,7 +9,9 @@ Here, a project folder structure is defined. I will go through the details in su
 Project Folder
 **************
 
-The project folder will be named as p<year>_<name>.
+The project folder will be named as p<year>_<name>, e.g. p21_resilience.
+
+Public dataset will be named as pub_<name>, e.g. pub_ukbiobank.
 
 The project folder will be created with the hierarchy as below. 
 
@@ -18,12 +20,13 @@ The project folder will be created with the hierarchy as below.
     /
     ├── data
     │   ├── proj
-    │   │   ├── p21_Resil
+    │   │   ├── p21_resilience
     │   │   │   ├── analysis
     │   │   │   ├── bi1dcm
     │   │   │   ├── bi2json
     │   │   │   ├── bids
-    │   │   │   ├── documents
+    │   │   │   ├── demobeh
+    │   │   │   ├── docs
     │   │   │   ├── preproc
     │   │   │   └── results
     │   │   └── p21_Stress
@@ -31,6 +34,34 @@ The project folder will be created with the hierarchy as below.
     └── ...
 
 
-Documents
-*********
+Documents (docs)
+****************
+
+The folder is intended for all documents related to the project. Including but not limited to:
+
+* Proposal
+* Ethics
+* Consent Form
+* Questionnaires
+* Task Paradigms
+
+`` Please make suggestions and comments ``
+
+Demographics & Behavioral Data (demobeh)
+****************************************
+
+The folder is intended for all demographics, questionnaires and experimental data.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
