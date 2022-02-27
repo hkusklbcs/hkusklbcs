@@ -15,7 +15,7 @@ Following the Garbage-In-Garbage-Out Principle, chaotic naming of the propotol w
 DICOM Conversion
 ****************
 
-We use dcm2niix for dicom conversion. This is a tool developed by Chris Rorden, which could be downloaded ``here <https://github.com/rordenlab/dcm2niix>``__. 
+We use dcm2niix for dicom conversion. This is a tool developed by Chris Rorden, which could be downloaded `here <https://github.com/rordenlab/dcm2niix>`__. 
 
 It converts DICOM images to Nifti files, and generate a JSON file which contain necessary headers, including slice timing and diffusion gradients, which are the most important ones, and TR, TE, FoV, etc, which we need to report in the manuscripts. 
 
