@@ -24,3 +24,22 @@ Contents
 
    bash/bash_basics
    bash/bash_scripting
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Project Management
+
+   projman/projman
+
+.. toctree::
+   :maxdepth: 1
+   :caption: DICOM to BIDS
+
+   dicom2bids/dicom2bids
+
+.. toctree::
+   :maxdepth: 1
+   :caption: FMRIprep
+
+   fmriprep/fmriprep
+
