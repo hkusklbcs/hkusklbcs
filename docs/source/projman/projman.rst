@@ -23,12 +23,12 @@ The project folder will be created with the hierarchy as below.
     ├── data
     │   ├── proj
     │   │   ├── p21_resilience
-    │   │   │   ├── analysis
-    │   │   │   ├── bids
-    │   │   │   ├── biraw
-    │   │   │   ├── demobeh
     │   │   │   ├── docs
+    │   │   │   ├── demobeh
+    │   │   │   ├── biraw
+    │   │   │   ├── bids
     │   │   │   ├── preproc
+    │   │   │   ├── analysis
     │   │   │   └── published
     │   │   └── p21_Stress
     │   └── ...
