@@ -43,3 +43,15 @@ Contents
 
    fmriprep/fmriprep
 
+.. toctree::
+   :maxdepth: 1
+   :caption: TORTOISE DTI
+
+   tortoisedti/tortoisedti
+
+.. toctree::
+   :maxdepth: 1
+   :caption: mBrainTrain
+
+   mBrainTrain/mBrainTrain
+
