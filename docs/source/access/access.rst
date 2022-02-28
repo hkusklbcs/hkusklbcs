@@ -24,7 +24,7 @@ SSH - Secure Shell
 SSH is the first entry to the server. For Windows users, it is advised to use MobaXterm for remote access. 
 It provides not only the secure shell, but also a VNC client, with which you could use the desktop service.
 
-For Mac and iPad, I would recommend Remoter. It is a paid software.
+For Mac and iPad, I would recommend `Remoter<https://remoterlabs.com/>`__. It is a paid software.
 
 
 VNC - Virtual Network Computing
@@ -86,7 +86,7 @@ Creating VNC session
 
 Go back to the MobaXterm. Click the Session button.
 
-.. figure:: MobaXterm-3-VNC-2-create
+.. figure:: MobaXterm-3-VNC-2-create.png
 
 .. note::
 
@@ -128,7 +128,7 @@ You can try to start some graphical software here.
 
   fsleyes &
   
-You start the `fsleyes <https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/>` with which you can visualise brain images. Hurray!
+You start the `fsleyes <https://open.win.ox.ac.uk/pages/fsl/fsleyes/fsleyes/userdoc/>`__ with which you can visualise brain images. Hurray!
 
 .. note::
 
