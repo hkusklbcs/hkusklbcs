@@ -5,6 +5,8 @@ All project information, including documents, subject information, behavioral an
 
 Here, a project folder structure is defined. I will go through the details in subsequent sections.
 
+.. warning::
+  This section is just a draft and subject to discussion.
 
 Project Folder
 **************
@@ -164,7 +166,6 @@ Analysis (analysis)
 *******************
 
 .. note::
-  
   This section is just a recommendation.
   
   I understand that everyone has his/her own habit, but it's still better to follow some system, 
