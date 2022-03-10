@@ -24,7 +24,7 @@ SSH - Secure Shell
 SSH is the first entry to the server. For Windows users, it is advised to use MobaXterm for remote access. 
 It provides not only the secure shell, but also a VNC client, with which you could use the desktop service.
 
-For Mac and iPad, I would recommend `Remoter<https://remoterlabs.com/>`__. It is a paid software.
+For Mac and iPad, I would recommend `Remoter <https://remoterlabs.com>`__. It is a paid software.
 
 
 VNC - Virtual Network Computing
