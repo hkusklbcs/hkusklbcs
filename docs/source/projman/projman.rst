@@ -24,7 +24,9 @@ The project folder will be created with the hierarchy as below.
     │   ├── proj
     │   │   ├── p21_resilience
     │   │   │   ├── docs
-    │   │   │   ├── demobeh
+    │   │   │   ├── instruments
+    │   │   │   ├── measures
+    │   │   │   ├── paradigm
     │   │   │   ├── biraw
     │   │   │   ├── bids
     │   │   │   ├── preproc
@@ -48,13 +50,18 @@ The folder is intended for all documents related to the project. Including but n
 
 ``Please make suggestions and comments``
 
-Demographics & Behavioral Data (demobeh)
-****************************************
+Instruments (instruments)
+**************************
 
-The folder is intended for all demographics, questionnaires and experimental data.
+Questionnaires and related stuff will go here.
+
+Measurements (measures)
+************************
+
+The folder is intended for all demographics, questionnaires and experimental data. 
 
 Brain Imaging Data - RAW files (biraw)
-***********************************
+***************************************
 
 DICOM files have to be manually sorted into folder named with subject id.
 
