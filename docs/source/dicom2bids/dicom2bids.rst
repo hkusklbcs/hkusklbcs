@@ -188,8 +188,7 @@ The script will:
 
   Prerequisite:
     1. Proper DICOM structure
-    2. biraw/participants.tsv
-      - Follow BIDS format, the scripts will only process the subjects contained in this file.
+    2. biraw/participants.tsv (Follow BIDS format, the scripts will only process the subjects contained in this file.)
 
 The ``participant.tsv`` could be as simple as:
 
@@ -311,16 +310,19 @@ Manual Conversion with dcm2niix
 
 The program takes various input parameters. For example, I find this command useful for post-conversion sorting.
 
-.. code-block:
+.. code-block:: Bash
 
   dcm2niix -i y -b y -z y -o . -f %f/%t/%p_%r bids/sub-001
 
+
 Explanation:
 
-.. list-table:: dcm2niix arguments
-   :widths: 25 75
-   :header-rows: 1
+.. list-table:: 
+  :widths: 50 50
+  :header-rows: 1
   
+  * - Argument
+    - Explanation
   * - -i y
     - ignore 2D images, such as localisers
   * - -b y
@@ -336,9 +338,9 @@ The output files of the -f option above will create a folder bids, and an inner 
 
 Assuming that the sub-001 is scanned on 2022-Jan-06 at 14:05:22, and the DICOM contains the sequences as the first column, the output files will be the right column:
 
-.. list-table:: dcm2niix arguments
-   :widths: 25 75
-   :header-rows: 1
+.. list-table:: 
+  :widths: 50 50
+  :header-rows: 1
   
   * - Protocol Name (%p)
     - Output
