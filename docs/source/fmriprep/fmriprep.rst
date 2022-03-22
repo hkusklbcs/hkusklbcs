@@ -1,8 +1,15 @@
 FMRIPrep
 ########
 
+This document describes how you should call the scripts to get BIDS data preprocessed.
+
 Input Files
 ***********
+
+
+
+test
+====
 
 
 Output Files
