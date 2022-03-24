@@ -24,9 +24,9 @@ The project folder will be created with the hierarchy as below.
     │   ├── proj
     │   │   ├── p21_resilience
     │   │   │   ├── docs
-    │   │   │   ├── instruments
-    │   │   │   ├── measures
-    │   │   │   ├── paradigm
+    │   │   │   │   ├── instruments
+    │   │   │   │   ├── measures
+    │   │   │   │   └── paradigm
     │   │   │   ├── biraw
     │   │   │   ├── bids
     │   │   │   ├── preproc
