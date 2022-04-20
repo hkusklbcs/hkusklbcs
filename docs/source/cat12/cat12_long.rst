@@ -9,7 +9,7 @@ CAT12 Longitudinal
 Download Files
 **************
 
-Download `SPM<https://www.fil.ion.ucl.ac.uk/spm/download/restricted/eldorado/spm12.zip>`__ and SPM toolboxes `CAT12<http://www.neuro.uni-jena.de/cat12/cat12_latest.zip>`__, `TFCE<http://www.neuro.uni-jena.de/tfce/tfce_latest.zip>`__ & `WFU_PickAtlas<https://www.nitrc.org/frs/download.php/10865/WFU_PickAtlas_3.tar.gz>`__. 
+Download `SPM <https://www.fil.ion.ucl.ac.uk/spm/download/restricted/eldorado/spm12.zip>`__ and SPM toolboxes `CAT12 <http://www.neuro.uni-jena.de/cat12/cat12_latest.zip>`__, `TFCE <http://www.neuro.uni-jena.de/tfce/tfce_latest.zip>`__ & `WFU_PickAtlas<https://www.nitrc.org/frs/download.php/10865/WFU_PickAtlas_3.tar.gz>`__. 
 
 Extracting Files
 ****************
@@ -143,8 +143,6 @@ Then you will see the design matrix.
 .. figure:: 13_designmatrix.png
 
 The first two column specify the first and second time point. The rest captures subject mean, so that we can establish the within-subject changes.
-
-.. figure:: 13_designmatrix.png
 
 Group-Level Statistical Analysis: Model Estimation
 **************************************************
