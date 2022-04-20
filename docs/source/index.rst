@@ -55,3 +55,9 @@ Contents
 
    mBrainTrain/mBrainTrain
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Server Admin
+
+   serveradmin/serveradmin
+
