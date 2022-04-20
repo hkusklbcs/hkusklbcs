@@ -49,6 +49,12 @@ Contents
 
    tortoisedti/tortoisedti
 
+.. toctree:: 
+   :maxdepth: 1
+   :caption: CAT12 VBM
+
+   cat12/cat12_long
+
 .. toctree::
    :maxdepth: 1
    :caption: mBrainTrain
