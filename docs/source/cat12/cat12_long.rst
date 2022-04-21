@@ -134,7 +134,10 @@ Steps for specifying subjects:
 
 .. figure:: 11_modelsetup.gif
 
-Them specify the main effects. We will need 2 main effects:
+You will need to select the brain images for all subjects one by one (unless you use another option to specify all files at once, and specify the design matrix on your own. Or it can be done with scripting.)
+
+Then specify the main effects. We will need 2 main effects:
+
 #. First Main effect: Factor number: 2 (It's time effect)
 #. Second Main effect: Factor number: 1 (It's subject effect, we actually have no interest in it.)
 #. Run button  
