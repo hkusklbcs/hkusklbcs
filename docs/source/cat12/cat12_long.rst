@@ -9,7 +9,7 @@ CAT12 Longitudinal
 Download Files
 **************
 
-Download `SPM <https://www.fil.ion.ucl.ac.uk/spm/download/restricted/eldorado/spm12.zip>`__ and SPM toolboxes `CAT12 <http://www.neuro.uni-jena.de/cat12/cat12_latest.zip>`__, `TFCE <http://www.neuro.uni-jena.de/tfce/tfce_latest.zip>`__ & `WFU_PickAtlas<https://www.nitrc.org/frs/download.php/10865/WFU_PickAtlas_3.tar.gz>`__. 
+Download `SPM <https://www.fil.ion.ucl.ac.uk/spm/download/restricted/eldorado/spm12.zip>`__ and SPM toolboxes `CAT12 <http://www.neuro.uni-jena.de/cat12/cat12_latest.zip>`__, `TFCE <http://www.neuro.uni-jena.de/tfce/tfce_latest.zip>`__ & `WFU_PickAtlas <https://www.nitrc.org/frs/download.php/10865/WFU_PickAtlas_3.tar.gz>`__. 
 
 Extracting Files
 ****************
@@ -25,8 +25,11 @@ Mac Security Issue
     Come back to this section if you cannot start SPM.
 
     You may encounter a message which stops you from runnin spm.
+
     ``spm_bsplinc.mexmaci64 cannot be opened because the developer cannot be verified.``
+    
     This is due to the security and privacy setting of the new macOS.
+    
     You can use the commands below to resolve the issue.
 
 .. 
