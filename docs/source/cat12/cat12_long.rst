@@ -32,7 +32,7 @@ Mac Security Issue
     
     You can use the commands below to resolve the issue.
 
-.. 
+:: 
     cd ~/
     sudo xattr -r -d com.apple.quarantine .
     sudo find . -name '*mexmaci64' -exec spctl --add {} \;
