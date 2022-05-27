@@ -18,3 +18,9 @@ The script ``/data/scripts/proj_create.sh`` has been created to add project grou
 Project folder is created with ``chmod g+s``, so the files and folders beneath will be created under the group. 
 
 The script ``/data/scripts/proj_adduser.sh`` will add users to the group.
+
+Listing Projects and Associated Users
+*************************************
+
+The script ``/data/scripts/proj_list.sh`` will list all the groups and associated users.
+
